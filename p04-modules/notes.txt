@@ -1,0 +1,4 @@
+
+npm install -g // installation global (dans le rep ouverte)
+npm i 
+a faire : npm i -g . (C:\Users\dell\AppData\Roaming\nodejs\npm)

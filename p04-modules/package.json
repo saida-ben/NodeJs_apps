@@ -1,0 +1,8 @@
+{
+    "name": "mql", 
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "mql-cli": "./cli.js" 
+    }
+}
