@@ -54,6 +54,7 @@ export function exp05(){
     })
 }
 
+// fct async est une promise !!!!!!!!!! 
 // fct return promiss et daans la fct de resolution on a param boolean
 
 
