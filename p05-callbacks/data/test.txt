@@ -1,0 +1,4 @@
+Chapitre sur les fcts callback et les Promesses 
+1. Callbacks
+2. Les Promesses
+3. Callbacks vs Promesses

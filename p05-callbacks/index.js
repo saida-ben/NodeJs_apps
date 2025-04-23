@@ -1,22 +1,21 @@
-import timer from "./timer.js"; //export != export default (pas de {timer}) import timer , {p1, p2}
-
-function exp01() {
-    timer.pause(5000, () =>{
-        console.log('5 secondes se sont écoulées !');
-    })
-}
-function exp02(){
-    timer.Promises.pause(5000)
-    .then(time => {
-        console.log(`5 secondes se sont écoulées a base d'une promesse !`);
-    })
-}
+import { exp01, exp02 , exp03, exp04, exp05} from "./examples.js"; 
 
 function main() {
-   // exp01();
-   exp02();
+   //exp01();
+   /*
+      exp03()
+        .then(status => {
+        console.log('apres exp03()' + status);
+        })
+   */
+
+   //exp04();
+
+   exp05();
+
 }
 
 main();
-
+// .then est une fct callback
 // creer fct dans l un des params (arrow function ?)
+// toutes fct ayns est un promise meme pas de await
